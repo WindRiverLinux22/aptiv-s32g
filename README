@@ -223,7 +223,7 @@ in "S32G2_Linux_BSP35.0_User_Manual.pdf".
 
 NOTICE:
     For hardware reasons, the power management features are not supported for
-	Aptiv CVC boards (Both Sousa and FL).
+	Aptiv CVC FL boards.
 
 6.2.1 CPU Hotplug verify steps
 ------------------------------
@@ -472,7 +472,7 @@ following line in your local.conf:
 
 	# bitbake wrlinux-image-<small/std>
 
-3. Boot Sousa board and stop in U-Boot, make sure that the U-Boot environment
+3. Boot CVC FL board and stop in U-Boot, make sure that the U-Boot environment
 variable "fdt_file" is set to be "s32g399a-cvc-fl.dtb" in which the pfe0~2 is
 in master mode, and make sure that pfeng_mode is enabled.
 
