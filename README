@@ -485,3 +485,8 @@ in master mode, and make sure that pfeng_mode is enabled.
 ---------------
 
 NOTE: The PFE slave mode is not verified at FL board.
+
+7.2 HSE
+-------
+
+About the detailed description, please refer to the README in layers/nxp-s32g.
